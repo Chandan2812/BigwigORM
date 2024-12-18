@@ -53,15 +53,19 @@ const About: React.FC = () => {
           }
         `}
       </style>
-      <div  className="text-center text-2xl md:text-4xl mt-10 font-semibold ">About Us</div>
+      <div className="text-center text-2xl md:text-4xl mt-10 font-semibold">About Us</div>
       <div
         ref={sectionRef}
         className="flex flex-col gap-5 md:flex-row items-center p-4 px-10 md:px-20 py-10 md:py-16 bg-white"
       >
         {/* Left Side (Text Section) */}
         <div className="md:w-1/2 w-full text-justify md:mr-8 mb-4 md:mb-0">
-          <h1 className="text-xl md:text-2xl font-semibold mb-4 md:mb-8">
-            {["Transform the Way You Manage Social Media", "with Advanced Automation and Insights", "Tailored for Success."].map((text, index) => (
+          <h1 className="text-lg md:text-xl font-semibold mb-4 md:mb-8">
+            {[
+              "Revolutionize Your Online Reputation",
+              "Manage Reviews and Customer Feedback Effortlessly",
+              "Drive Growth with Actionable Insights.",
+            ].map((text, index) => (
               <span
                 key={index}
                 className={`slide-in heading block ${isVisible ? "animate animated-delay" : ""}`}
@@ -72,11 +76,11 @@ const About: React.FC = () => {
             ))}
           </h1>
 
-          <p className="text-md md:text-lg">
+          <p className="text-md">
             {[
-              "Our platform is designed to simplify your social media workflow, enabling you to efficiently plan and execute campaigns across multiple platforms.",
-              "With advanced scheduling tools, in-depth analytics, and real-time audience engagement features, you'll have everything you need to grow your online presence.",
-              "Whether you're a solo entrepreneur, a marketing agency, or a large enterprise, our solution scales to meet your needs, providing a centralized hub for all your social media activities.",
+              "BigwigORM simplifies the way you manage online reviews and customer feedback. Build a strong online reputation by monitoring and responding to reviews seamlessly.",
+              "Our platform offers powerful tools for analyzing customer sentiment, improving your brand trust, and enhancing customer relationships with actionable insights.",
+              "Whether you're a small business, agency, or enterprise, our scalable solution ensures you stay ahead by turning customer feedback into opportunities for growth.",
             ].map((text, index) => (
               <span
                 key={index}
@@ -90,10 +94,10 @@ const About: React.FC = () => {
         </div>
 
         {/* Right Side (Image Section) */}
-        <div className="md:w-1/2 w-full">
+        <div className=" w-full">
           <img
-            src="https://themelooks.us/demo/smm24/html/preview/rtl/img/banner-img/slider-img-01.png" // Replace with your actual image URL
-            alt="Illustration of social media automation features"
+            src="https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/generation/v1/reviews-automation@2x.png" // Replace with an image relevant to review management
+            alt="Illustration of online review management"
             className="w-full h-auto rounded-lg"
           />
         </div>

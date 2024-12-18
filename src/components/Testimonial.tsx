@@ -2,37 +2,37 @@ import Slider from "react-slick";
 
 // Testimonial Section Component
 const TestimonialSection = () => {
-    const testimonials = [
-        {
-          name: "John Doe",
-          role: "Marketing Manager",
-          company: "TechCorp",
-          text: "This platform has completely transformed our social media strategy! The analytics and content scheduling are game-changers.",
-          image: "https://randomuser.me/api/portraits/men/1.jpg", // Random image 1
-        },
-        {
-          name: "Jane Smith",
-          role: "Social Media Expert",
-          company: "BrandCo",
-          text: "I love the ease of managing multiple accounts in one place. The reporting feature is also incredibly helpful!",
-          image: "https://randomuser.me/api/portraits/men/7.jpg", // Random image 2
-        },
-        {
-          name: "Mark Johnson",
-          role: "Content Strategist",
-          company: "Creative Solutions",
-          text: "The hashtag suggestions and automated posting features have significantly boosted our engagement. Highly recommend!",
-          image: "https://lh3.googleusercontent.com/a-/ALV-UjWRzI2Z1MO95VkHQowijTU1kEv8xcL2IXZ6yCkmA5dnjTDzWbMr=w54-h54-p-rp-mo-br100", // Random image 3
-        },
-        {
-          name: "Sara Lee",
-          role: "Community Manager",
-          company: "Innovative Group",
-          text: "The social listening feature is a game-changer for us. We can now track all mentions and stay ahead of the conversation.",
-          image: "https://randomuser.me/api/portraits/women/2.jpg", // Random image 4
-        },
-      ];
-      
+  const testimonials = [
+    {
+      name: "Emily Carter",
+      role: "Business Owner",
+      company: "Cafe Delight",
+      text: "BigwigORM helped us respond to reviews quickly and improved our online reputation. Our rating went from 4.0 to 4.8 stars in just 2 months!",
+      image: "https://randomuser.me/api/portraits/women/3.jpg", // Image 1
+    },
+    {
+      name: "Michael Brown",
+      role: "Operations Manager",
+      company: "Urban Stay Hotels",
+      text: "Managing reviews across platforms was overwhelming until we started using BigwigORM. It saved us hours every week and boosted customer trust.",
+      image: "https://randomuser.me/api/portraits/men/5.jpg", // Image 2
+    },
+    {
+      name: "Sophia Martinez",
+      role: "Head of Marketing",
+      company: "RetailX",
+      text: "The analytics and sentiment analysis gave us deep insights into customer feedback. It’s a must-have tool for businesses serious about their reputation.",
+      image: "https://randomuser.me/api/portraits/women/4.jpg", // Image 3
+    },
+    {
+      name: "James Wilson",
+      role: "Community Manager",
+      company: "Local Eats",
+      text: "With automated review requests, we’ve collected more positive reviews than ever before. Our business has seen noticeable growth!",
+      image: "https://randomuser.me/api/portraits/men/8.jpg", // Image 4
+    },
+  ];
+  
 
   // Slider settings
   const settings = {
