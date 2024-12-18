@@ -21,7 +21,7 @@ function Footer() {
         <span className="text-green-500 text-2xl font-bold">w</span>
         <span className="text-purple-500 text-2xl font-bold">i</span>
         <span className="text-pink-500 text-2xl font-bold">g</span>
-        <span className="text-teal-500 text-2xl font-bold">SMM</span>
+        <span className="text-teal-500 text-2xl font-bold">ORM</span>
             <p className="text-lg text-gray-400">
               The best place for social media management tools and insights. Boost your online presence effortlessly.
             </p>
