@@ -3,54 +3,55 @@ import { motion } from "framer-motion";
 function Features() {
   const featureData = [
     {
-      title: "AI-Powered Post Creation",
+      title: "Analyze Review Sentiment with AI",
       description:
-        "Create engaging and high-quality posts effortlessly with Handly's AI-powered content generation. Tailor content to match your audience and industry, ensuring your message resonates with the right tone and style.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/social/overview/v3/img-social-publishing.png",
+        "Quickly grasp what's working and what needs improvement by summarizing the sentiment of numerous reviews in a single click. Generate location-specific reports and share them effortlessly.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-summary.png",
     },
     {
-      title: "Generate High-Definition Images with AI",
+      title: "Craft Ideal Review Responses with AI",
       description:
-        "Bring your posts to life with stunning, high-definition images generated using OpenAI technology. Simply provide a prompt, and Handly creates visually appealing and contextually relevant images in seconds.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/social/overview/v4/img-post-library.png",
+        "Leverage AI to create personalized review replies at scale. Generate custom responses or rephrase existing ones to maintain a consistent, empathetic tone that aligns with your brand. Edit grammar, tone, and length seamlessly.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/genai-responses.png",
     },
     {
-      title: "Seamless Multi-Platform Posting",
+      title: "Translate Reviews and Replies Effortlessly",
       description:
-        "Save time by publishing posts across all your social media accounts simultaneously. With Handly, you can streamline posting to platforms like Facebook, Twitter, Instagram, and LinkedIn with just a click.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/social/overview/v4/img-bulk-publishing.png",
+        "Break language barriers effortlessly. Translate reviews into English and craft responses that are automatically translated into your customer's language, eliminating the need for manual translation.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-translation.png",
     },
     {
-      title: "AI-Driven Replies to Engage Your Audience",
+      title: "Stay Updated with Instant Review Alerts",
       description:
-        "Respond to comments, questions, and messages effortlessly using AI-powered replies. Handly ensures timely and on-brand responses to boost audience engagement and build meaningful connections.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/social/overview/v4/img-social-engagement.png",
+        "Never miss an important review. Receive instant notifications for every new review and respond within seconds from your desktop or mobile app.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-alerts-v2.png",
     },
     {
-      title: "Schedule Posts with Visual Calendar",
+      title: "Identify and Handle Fake Reviews",
       description:
-        "Plan and schedule your posts ahead of time using Handly's intuitive visual calendar. Filter posts by date, platform, or status and maintain a consistent social media presence with ease.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/social/overview/v4/img-social-scheduling.png",
+        "Safeguard your reputation by detecting and flagging spam or fake reviews automatically. Let us take care of it, so you don’t have to.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/spam-detection-v1.png",
     },
     {
-      title: "AI-Optimized Posting Times",
+      title: "Streamline Responses with Pre-Written Templates",
       description:
-        "Maximize your content's impact with AI-powered suggestions on the best times to post. Identify trends, boost reach, and optimize your posting schedule for maximum audience engagement.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/social/overview/v3/img-increase-engagement.png",
+        "Engage with customers efficiently using customizable review response templates. Save time while ensuring every customer feels heard.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/response-templates-v1.png",
     },
     {
-      title: "Analyze Post Performance and Insights",
+      title: "Automate Your Review Responses",
       description:
-        "Track post performance with advanced analytics. Measure reach, engagement, and audience growth across platforms, uncovering valuable insights to refine your social media strategy.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/social/track-performance.png",
+        "Set up automated replies for specific review sources, star ratings, or locations. Keep your customers engaged effortlessly.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/response-automation-v1.png",
     },
     {
-      title: "Build a Shared Content Library",
+      title: "Track and Analyze Reputation Trends",
       description:
-        "Store and manage a library of pre-approved posts, images, and templates for quick access. Easily repurpose proven content and maintain consistency across all your social media channels.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/social/overview/v4/img-post-library.png",
+        "Monitor review counts and reputation scores over time and across various locations. Share detailed, customized reports with your local teams.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
     },
   ];
+  
   
 
   const variants = {
