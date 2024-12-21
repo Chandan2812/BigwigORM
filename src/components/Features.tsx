@@ -7,48 +7,56 @@ function Features() {
       description:
         "Quickly grasp what's working and what needs improvement by summarizing the sentiment of numerous reviews in a single click. Generate location-specific reports and share them effortlessly.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-summary.png",
+      id: "feature1"
     },
     {
       title: "Craft Ideal Review Responses with AI",
       description:
         "Leverage AI to create personalized review replies at scale. Generate custom responses or rephrase existing ones to maintain a consistent, empathetic tone that aligns with your brand. Edit grammar, tone, and length seamlessly.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/genai-responses.png",
+      id: "feature2"
     },
     {
       title: "Translate Reviews and Replies Effortlessly",
       description:
         "Break language barriers effortlessly. Translate reviews into English and craft responses that are automatically translated into your customer's language, eliminating the need for manual translation.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-translation.png",
+      id: "feature3"
     },
     {
       title: "Stay Updated with Instant Review Alerts",
       description:
         "Never miss an important review. Receive instant notifications for every new review and respond within seconds from your desktop or mobile app.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-alerts-v2.png",
+      id: "feature4"
     },
     {
       title: "Identify and Handle Fake Reviews",
       description:
         "Safeguard your reputation by detecting and flagging spam or fake reviews automatically. Let us take care of it, so you don’t have to.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/spam-detection-v1.png",
+      id: "feature5"
     },
     {
       title: "Streamline Responses with Pre-Written Templates",
       description:
         "Engage with customers efficiently using customizable review response templates. Save time while ensuring every customer feels heard.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/response-templates-v1.png",
+      id: "feature6"
     },
     {
       title: "Automate Your Review Responses",
       description:
         "Set up automated replies for specific review sources, star ratings, or locations. Keep your customers engaged effortlessly.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/response-automation-v1.png",
+      id: "feature7"
     },
     {
       title: "Track and Analyze Reputation Trends",
       description:
         "Monitor review counts and reputation scores over time and across various locations. Share detailed, customized reports with your local teams.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
+      id: "feature8"
     },
   ];
   
@@ -74,6 +82,7 @@ function Features() {
       {featureData.map((feature, index) => (
         <div
           key={index}
+          id={feature.id}
           className={`max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 items-center gap-8 mt-${
             index === 0 ? 0 : 16
           }`}
