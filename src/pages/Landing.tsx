@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import SocialMediaHero from '../components/Hero';
 import HowItWorks from '../components/HowItWorks';
 import Nav from '../components/Nav';
-import PricingPlans from '../components/Pricing';
+// import PricingPlans from '../components/Pricing';
 import TestimonialSection from '../components/Testimonial';
 
 function Landing() {
@@ -18,7 +18,7 @@ function Landing() {
             <HowItWorks/>
             <FeatureSection/>
             <TestimonialSection/>
-            <PricingPlans/>
+            {/* <PricingPlans/> */}
             <About/>
             <Blog/>
             <FAQ/>

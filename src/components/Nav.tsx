@@ -124,13 +124,20 @@ function Nav() {
           <button onClick={() => handleScrollToSection('about')} className="hover:text-black">
             About Us
           </button>
-          <button onClick={() => handleScrollToSection('pricing')} className="hover:text-black">
+          {/* <button onClick={() => handleScrollToSection('pricing')} className="hover:text-black">
             Pricing
-          </button>
+          </button> */}
           <button onClick={() => handleScrollToSection('Blog')} className="hover:text-black">
             Blog
           </button>
+          <button
+            onClick={() => window.open('/team', '_blank')}
+            className="hover:text-black"
+          >
+            Team
+          </button>
         </div>
+        
 
         <div className="md:block hidden">
           <button
@@ -158,9 +165,16 @@ function Nav() {
           <button onClick={() => handleScrollToSection('about')} className="hover:text-black">
             About Us
           </button>
-          <button onClick={() => handleScrollToSection('pricing')} className="hover:text-black">
+          {/* <button onClick={() => handleScrollToSection('pricing')} className="hover:text-black">
             Pricing
+          </button> */}
+          <button
+            onClick={() => window.open('/team', '_blank')}
+            className="hover:text-black"
+          >
+            Team
           </button>
+
           <button
             onClick={() => handleScrollToSection('faq')}
             className="w-1/2 mx-auto block text-center bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg focus:outline-none text-lg sm:text-xl shadow-md"
