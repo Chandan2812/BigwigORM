@@ -46,13 +46,13 @@ function Nav() {
     >
       <div className="flex items-center justify-between p-4 md:px-10 relative">
         <button className="flex items-center space-x-1 ml-5" onClick={() => handleScrollToSection('home')}>
-        <span className="text-red-500 text-2xl font-bold">B</span>
-        <span className="text-blue-500 text-2xl font-bold">i</span>
-        <span className="text-yellow-500 text-2xl font-bold">g</span>
-        <span className="text-green-500 text-2xl font-bold">w</span>
-        <span className="text-purple-500 text-2xl font-bold">i</span>
-        <span className="text-pink-500 text-2xl font-bold">g</span>
-        <span className="text-teal-500 text-2xl font-bold">ORM</span>
+        <span className="text-red-500 text-3xl font-bold">B</span>
+        <span className="text-blue-500 text-3xl font-bold">i</span>
+        <span className="text-yellow-500 text-3xl font-bold">g</span>
+        <span className="text-green-500 text-3xl font-bold">w</span>
+        <span className="text-purple-500 text-3xl font-bold">i</span>
+        <span className="text-pink-500 text-3xl font-bold">g</span>
+        <span className="text-teal-500 text-3xl font-bold">ORM</span>
         </button>
 
         <button
@@ -76,7 +76,7 @@ function Nav() {
         </button>
 
         <div className="hidden md:flex gap-8 space-x-6 text-gray-600">
-          <button onClick={() => handleScrollToSection('home')} className="hover:text-black">
+          <button onClick={() => handleScrollToSection('home')} className="hover:text-black font-bold">
             Home
           </button>
           <div
@@ -85,7 +85,7 @@ function Nav() {
   onMouseLeave={() => setIsDropdownOpen(false)}
 >
   {/* Features Button with Dropdown Icon */}
-  <button className="hover:text-black flex items-center">
+  <button className="hover:text-black flex items-center font-bold">
     Features
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +113,7 @@ function Nav() {
         <button
           key={index}
           onClick={() => handleScrollToSection(feature.id)}
-          className="text-gray-600 hover:text-black text-sm"
+          className="text-gray-600 hover:text-black text-sm font-bold"
         >
           {feature.name}
         </button>
@@ -121,18 +121,16 @@ function Nav() {
     </div>
   )}
 </div>
-          <button onClick={() => handleScrollToSection('about')} className="hover:text-black">
+          <button onClick={() => handleScrollToSection('about')} className="hover:text-black font-bold">
             About Us
           </button>
-          {/* <button onClick={() => handleScrollToSection('pricing')} className="hover:text-black">
-            Pricing
-          </button> */}
-          <button onClick={() => handleScrollToSection('Blog')} className="hover:text-black">
+          
+          <button onClick={() => handleScrollToSection('Blog')} className="hover:text-black font-bold">
             Blog
           </button>
           <button
             onClick={() => window.open('/team', '_blank')}
-            className="hover:text-black"
+            className="hover:text-black font-bold"
           >
             Team
           </button>

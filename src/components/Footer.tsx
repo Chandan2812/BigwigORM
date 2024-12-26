@@ -100,13 +100,6 @@ function Footer() {
                   FAQ
                 </button>
               </li>
-              <li>
-              <button
-                  className="text-gray-400 hover:text-white"
-                >
-                  Support
-                </button>
-              </li>
             </ul>
           </div>
 
@@ -115,8 +108,6 @@ function Footer() {
             <h3 className="text-xl font-semibold text-white mb-4">Contact Info</h3>
             <ul className="space-y-2">
               <li className="text-gray-400"><FontAwesomeIcon icon={faEnvelope} className="mr-2" /> info@bigwigmedia.in</li>
-              <li className="text-gray-400">Delhi,India</li>
-              <li className="text-gray-400">+91-11 49 384 555</li>
             </ul>
           </div>
 
@@ -132,7 +123,7 @@ function Footer() {
 
         {/* Footer Bottom */}
         <div className="mt-12 text-center text-gray-400">
-          <p>&copy; 2024 Bigwig Media. All rights reserved.</p>
+          <p>&copy; 2025 Bigwig Media. All rights reserved.</p>
         </div>
       </div>
     </div>

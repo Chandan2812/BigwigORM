@@ -3,6 +3,13 @@ import { motion } from "framer-motion";
 function Features() {
   const featureData = [
     {
+      title: "Stay Updated with Instant Review Alerts",
+      description:
+        "Never miss an important review. Receive instant notifications for every new review and respond within seconds from your desktop or mobile app.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-alerts-v2.png",
+      id: "feature4"
+    },
+    {
       title: "Analyze Review Sentiment with AI",
       description:
         "Quickly grasp what's working and what needs improvement by summarizing the sentiment of numerous reviews in a single click. Generate location-specific reports and share them effortlessly.",
@@ -22,13 +29,6 @@ function Features() {
         "Break language barriers effortlessly. Translate reviews into English and craft responses that are automatically translated into your customer's language, eliminating the need for manual translation.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-translation.png",
       id: "feature3"
-    },
-    {
-      title: "Stay Updated with Instant Review Alerts",
-      description:
-        "Never miss an important review. Receive instant notifications for every new review and respond within seconds from your desktop or mobile app.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-alerts-v2.png",
-      id: "feature4"
     },
     {
       title: "Identify and Handle Fake Reviews",
@@ -53,6 +53,27 @@ function Features() {
     },
     {
       title: "Track and Analyze Reputation Trends",
+      description:
+        "Monitor review counts and reputation scores over time and across various locations. Share detailed, customized reports with your local teams.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
+      id: "feature8"
+    },
+    {
+      title: "Share & Publish 5* Reviews across all Social Media Channels",
+      description:
+        "Monitor review counts and reputation scores over time and across various locations. Share detailed, customized reports with your local teams.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
+      id: "feature8"
+    },
+    {
+      title: "Share & Publish 5* Reviews on your website as live testimonials",
+      description:
+        "Monitor review counts and reputation scores over time and across various locations. Share detailed, customized reports with your local teams.",
+      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
+      id: "feature8"
+    },
+    {
+      title: "Read & Reply to your reviews in any language",
       description:
         "Monitor review counts and reputation scores over time and across various locations. Share detailed, customized reports with your local teams.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
