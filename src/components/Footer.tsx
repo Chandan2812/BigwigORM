@@ -58,14 +58,6 @@ function Footer() {
   </li>
   <li>
     <button
-      onClick={() => handleScrollToSection('pricing')}
-      className="text-gray-400 hover:text-white"
-    >
-      Pricing
-    </button>
-  </li>
-  <li>
-    <button
       onClick={() => handleScrollToSection('Blog')}
       className="text-gray-400 hover:text-white"
     >
@@ -79,15 +71,10 @@ function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
+              
               <li>
               <button
-                  className="text-gray-400 hover:text-white"
-                >
-                  blog
-                </button>
-              </li>
-              <li>
-              <button
+              onClick={() => handleScrollToSection('case')}
                   className="text-gray-400 hover:text-white"
                 >
                   Case Studies
@@ -95,6 +82,7 @@ function Footer() {
               </li>
               <li>
               <button
+              onClick={() => handleScrollToSection('faq')}
                   className="text-gray-400 hover:text-white"
                 >
                   FAQ
