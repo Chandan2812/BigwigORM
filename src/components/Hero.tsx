@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
       {/* Left Section */}
       <div className="max-w-lg space-y-6 text-center lg:text-left">
       <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
-          Elevate your brand's reputation with Ease <span className="text-blue-500">Powered by AI</span>
+      Seamlesly Manage your Online Reputation & Review Management and respond to every customer across all review platforms from a single interface. <br /> <span className="text-blue-500">Powered by AI</span>
         </h1>
         <p className="text-gray-600 leading-relaxed">
 Monitor and manage your online presence, respond to reviews and comments effortlessly, and maintain a consistent brand image – <span className="italic">all from one intuitive platform</span>.
