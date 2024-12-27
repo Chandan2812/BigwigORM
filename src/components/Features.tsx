@@ -60,24 +60,21 @@ function Features() {
     },
     {
       title: "Share & Publish 5* Reviews across all Social Media Channels",
-      description:
-        "Monitor review counts and reputation scores over time and across various locations. Share detailed, customized reports with your local teams.",
+      description: "Amplify your success stories effortlessly. Highlight your best reviews by sharing them directly on social media platforms. Let positive customer feedback build trust and drive engagement.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
-      id: "feature8"
+      id: "feature9"
     },
     {
       title: "Share & Publish 5* Reviews on your website as live testimonials",
-      description:
-        "Monitor review counts and reputation scores over time and across various locations. Share detailed, customized reports with your local teams.",
+      description: "Turn glowing reviews into real-time endorsements. Showcase 5-star feedback directly on your website as live testimonials, creating an authentic and persuasive customer experience.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
-      id: "feature8"
+      id: "feature10"
     },
     {
       title: "Read & Reply to your reviews in any language",
-      description:
-        "Monitor review counts and reputation scores over time and across various locations. Share detailed, customized reports with your local teams.",
+      description: "Effortlessly manage global reviews. View feedback in its original language and craft responses that resonate, translated accurately into your customer's preferred language.",
       imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
-      id: "feature8"
+      id: "feature11"
     },
   ];
   
